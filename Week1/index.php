@@ -38,12 +38,15 @@
        $Count = str_word_count($FullName);
        echo "The number of words in the string is: $Count";
 
-    
+      $age = 20;
+      //print can be used with ternary operator
+      //  while echo cannot be used with ternary operator
+      print ($age >= 18) ? "Adult" : "Minor";
 
-    
 
 
        
+ 
     ?>
 </body>
 </html>
