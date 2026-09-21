@@ -121,6 +121,96 @@ Here is example of it
      ![Screenshots](Ternary-operator.png)
 
 
+     ## Arrays in php 
+         Array is variable that holds multiple values that are mapped by  keys and index 
+
+         instead  of creating each piece of data one by one .
+
+         in php array will be accessed two ways either number or string
+
+    ## Types of array in php are classified into three 
+
+            1. Numerical index array is numeric index arrray and it can be accessed as a linear.
+            2. Associative array is a string array that stores values with key and values pairs.
+            3. Multidimensional Arrays is array that contain nested arrays inside them .
+
+    
+    ## Numerical index array can do two ways:
+    creating and initializing at once here is an example of it 
+        ![Screenshots](C&I-array.png)
+
+     creating an empty array
+
+    here is example of it 
+
+
+    ![Screenshots](empty-array.png)
+
+    here is another example of assigning value to index 
+
+    ![Screenshots](assign-v-index.png)
+
+## Associative array can be accessed through the key name 
+
+here is an example of associative array accessing the key name 
+![Screenshots](ass-with-key.png)
+
+## Here is another example of associative array using forEach to display
+![Screenshots](ass-forEach.png)
+
+
+## var_dump() is a PHP function used to display detailed information about a variable.
+
+It shows information such as:
+
+  1. The data type
+  2. The value
+  3. The length of strings
+  4. The number of elements in an array
+ 5. The indexes and values of an array
+
+    Here is an example of it 
+
+     ![Screenshots](var_dum.png)
+
+
+## print_r() 
+is used todisplays a more human-readable representation of a variable, especially useful for arrays.  
+
+     Here is an example of it   
+         
+ ![Screenshots](print-preTag.png)
+
+Without pre tag, print_r() output can look messy in a browser.
+
+
+     
+     
+## Pre  tag :
+is an HTML tag used to preserve spaces, line breaks, and formatting when displaying text in the browser.
+
+The pre  tag can be used with both print_r() and var_dump().
+
+here is examples of it 
+
+
+![Screenshots](var_dum.png)
+
+![Screenshots](print-preTag.png)
+
+
+
+   
+
+
+
+
+
+
+    
+
+
+
 
 
 
